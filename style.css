@@ -1,0 +1,276 @@
+* {
+    padding : 0px;
+    margin : 0px;
+}
+@font-face {
+    font-family: "BentonSansBold";
+    src: url("./Asset/Font/BentonSansBold/BentonSansBold.otf") format("opentype");
+  }
+@font-face {
+    font-family: "CORBEL";
+    src: url("./Asset/Font/Corbel/CORBEL.TTF") format("truetype");
+  }
+  
+
+
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("./Asset/fond-compresed.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: center;
+
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: white;
+    width: 88%;
+    height: 96%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    border-radius: 0px 0px 1% 1%;
+
+}
+#banner{
+    position: absolute;
+    top: 0px;
+    height: 10%;
+    width: 100%;
+    background: url(./Asset/M-med-cit.png) repeat-x ;
+    background-position-y: bottom;
+    background-position-x: center;
+    background-repeat: space;
+}
+
+
+header{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    top: 11%;
+    height: 30%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+h1{
+    color: #457656;
+    font-size: 3.5vw;
+    font-style: normal;
+    font-family: "BentonSansBold";
+    
+}
+#logoMCV{
+    height: 100%;
+    width: 40%;
+    background: url('./Asset/logos/Logo-MedCit.png');
+    background-size: contain;
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+
+#RadioBastides{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    top: 32%;
+    height: 30%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    font-family: "CORBEL";
+    font-size: 1.9vw;
+    font-style: normal;
+}
+#linkRadioBastides{
+    height: 100%;
+    width: 50%;
+    background: url('./Asset/logos/Logo-Bastides-avec-slogan.png');
+    background-size: contain;
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+
+#linkPartner{
+    position:absolute;
+    display: flex;
+    justify-content: top;
+    flex-direction: column;
+    align-items: center;
+    top: 70%;
+    height: 40%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    background-color: #457656;
+    padding: 0.3% 4% 0.3% 4% ;
+    margin-bottom: 4%;
+    border-radius: 10px;
+    font-family: "CORBEL";
+    font-size: 1.8vw;
+    font-style: normal;
+    color: azure;
+}
+
+
+#partnerContener{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 30%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#ligueEnseignement{
+    background: url(./Asset/LogoPartenaires/La-Ligue47.png);
+    width: 14%;
+    background-size: contain;
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+#villeneuveSurlot{
+    background: url(./Asset/LogoPartenaires/Villeneuve-Logo1.jpg);
+    width: 14%;
+    background-size: contain;
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+#albertFm{
+    background: url(./Asset/LogoPartenaires/AlbretFM.jpg);
+    width: 14%;
+    background-size: contain;
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+#ardradio{
+    background: url(./Asset/LogoPartenaires/ARD-radio.png);
+    width: 14%;
+    background-size: contain;
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+#radioBulle{
+    background: url(./Asset/LogoPartenaires/Radio-Bulle.jpg);
+    width: 14%;
+    background-size: contain;
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+#cfmradio{
+    background: url(./Asset/LogoPartenaires/logo_cfm_radio.jpg);
+    width: 14%;
+    background-size: contain;
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+#espoirFm{
+    background: url(./Asset/LogoPartenaires/LOGO-ESPOIRFM.png);
+    width: 14%;
+    background-size: contain;
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+@media (orientation: portrait),(max-width: 800px) {
+    header {
+        position:absolute;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        top: 15%;
+        height: 20%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1{
+        color: #457656;
+        font-size: 3vh;
+        font-style: normal;
+        font-family: "BentonSansBold";
+        
+        
+    }
+    #logoMCV{
+        height: 100%;
+        width: 60%;
+        background: url('./Asset/logos/Logo-MedCit.png');
+        background-size: contain;
+        background-position-y: center;
+        background-position-x: center;
+        background-repeat: no-repeat;
+        
+    }
+
+
+    #RadioBastides{
+        position:absolute;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        top: 40%;
+        height: 20%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h2{
+        font-family: "CORBEL";
+        font-size: 2.5vh;
+        font-style: normal;
+        
+    }
+    #linkRadioBastides{
+        height: 100%;
+        width: 80%;
+        background: url('./Asset/logos/Logo-Bastides-avec-slogan.png');
+        background-size: contain;
+        background-position-y: center;
+        background-position-x: center;
+        background-repeat: no-repeat;
+        
+    }
+
+
+
+  } 
