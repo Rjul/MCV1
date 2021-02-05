@@ -16,6 +16,7 @@
 html{
     width: 100%;
     height: 100%;
+
 }
 body{
     position: absolute;
@@ -36,6 +37,8 @@ body{
     background-color: white;
     width: 88%;
     height: 96%;
+    max-width: 1980px;
+    max-height: 1080px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: auto;
@@ -69,7 +72,7 @@ header{
 }
 h1{
     color: #457656;
-    font-size: 3.5vw;
+    font-size: 300%;
     font-style: normal;
     font-family: "BentonSansBold";
     
@@ -99,7 +102,7 @@ h1{
 }
 h2{
     font-family: "CORBEL";
-    font-size: 1.9vw;
+    font-size: 250%;
     font-style: normal;
 }
 #linkRadioBastides{
@@ -131,7 +134,7 @@ h3{
     margin-bottom: 4%;
     border-radius: 10px;
     font-family: "CORBEL";
-    font-size: 1.8vw;
+    font-size: 200%;
     font-style: normal;
     color: azure;
 }
@@ -260,6 +263,7 @@ h3{
         font-style: normal;
         
     }
+
     #linkRadioBastides{
         height: 100%;
         width: 80%;
@@ -269,6 +273,28 @@ h3{
         background-position-x: center;
         background-repeat: no-repeat;
         
+    }
+    #linkPartner{
+        position:absolute;
+        display: flex;
+        justify-content: top;
+        flex-direction: column;
+        align-items: center;
+        top: 70%;
+        height: 40%;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h3{
+        background-color: #457656;
+        padding: 0.3% 4% 0.3% 4% ;
+        margin-bottom: 4%;
+        border-radius: 10px;
+        font-family: "CORBEL";
+        font-size: 100%;
+        font-style: normal;
+        color: azure;
     }
 
 
